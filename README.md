@@ -1,5 +1,37 @@
 # config-repository
 
+## Exemle d'accès ressources
+
+
+Mode Api :
+
+
+```bash
+http://localhost:8888/ms-admin/default
+http://localhost:8888/ms-admin/default/master
+```
+
+```bash
+http://localhost:8888/ms-service/prod
+http://localhost:8888/ms-service/prod/master
+http://localhost:8888/ms-service/prod/release-1.0.0
+```
+
+
+
+Mode flat :
+
+```bash
+http://localhost:8888/ima/default/master/tomcat-users.xml
+http://localhost:8888/ima/default/master/ms-logger/tomcat-users.xml
+```
+
+> Peut importe le nom de l'application, ici ima, cela permet d'accéder directement à une ressource.
+
+
+
+
+
 ## Api de récupération d'une ressource
 
 ```bash
