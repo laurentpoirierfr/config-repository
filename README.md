@@ -17,11 +17,11 @@ Avec :
 
 
 ```bash
-${SPRING_PROFILES_ACTIVE}
+export SPRING_PROFILES_ACTIVE=prod
 ```
 
 ```bash
-$ java -jar -Dspring.profiles.active=production demo-0.0.1-SNAPSHOT.jar
+$ java -jar -Dspring.profiles.active=prod demo-0.0.1-SNAPSHOT.jar
 ```
 
 - label : version de la ressource. Par défault sur Git c'est master.
