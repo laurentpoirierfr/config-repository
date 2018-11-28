@@ -1,0 +1,23 @@
+# application.yml
+server:
+  port: ${PORT:0}
+
+
+# Info
+info:
+  app:
+    name: ms-service-uat
+    description: Micro service exemple
+    version: 0.0.1-SNAPSHOT
+
+# Actuator endpoints
+management:
+  endpoints:
+    web:
+      exposure:
+        include: *
+  endpoint:
+    shutdown:
+      enabled: true
+    info:
+      enabled: true
