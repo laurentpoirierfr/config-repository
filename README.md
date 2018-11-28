@@ -26,3 +26,6 @@ $ java -jar -Dspring.profiles.active=prod demo-0.0.1-SNAPSHOT.jar
 
 - label : version de la ressource. Par défault sur Git c'est master.
 
+Référence :
+
+- [https://cloud.spring.io/spring-cloud-config/multi/multi__spring_cloud_config_server.html](https://cloud.spring.io/spring-cloud-config/multi/multi__spring_cloud_config_server.html)
