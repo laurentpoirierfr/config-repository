@@ -1,6 +1,6 @@
 # config-repository
 
-## Exemle d'accès ressources
+## Exemple d'accès ressources
 
 
 Mode Api :
@@ -22,6 +22,9 @@ http://localhost:8888/ms-service/prod/release-1.0.0
 Mode flat :
 
 ```bash
+view-source:http://localhost:8888/ima/default/master/ms-admin.properties
+view-source:http://localhost:8888/ima/default/master/ms-service.yml
+
 http://localhost:8888/ima/default/master/tomcat-users.xml
 http://localhost:8888/ima/default/master/ms-logger/tomcat-users.xml
 ```
