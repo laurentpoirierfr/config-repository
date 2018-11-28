@@ -6,7 +6,7 @@ server:
 # Info
 info:
   app:
-    name: ms-service-prod
+    name: ms-service-staging
     description: Micro service exemple
     version: 0.0.1-SNAPSHOT
 
