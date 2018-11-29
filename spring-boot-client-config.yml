@@ -19,7 +19,7 @@ management:
 # Logging configuration
 logging:
   path: ${LOG_PATH:target}
-  file: ${logging.path}/${spring.application.name}.log
+  file: ${logging.path}/${spring.application.name}-${server.port}.log
 # path: ${TEMP}
   pattern:
     file: "%clr(%d{yyyy-MM-dd HH:mm:ss.SSS}){faint} %clr(${LOG_LEVEL_PATTERN:-%5p}) %clr(${PID:- }){magenta} %clr(---){faint} %clr([%15.15t]){faint} %clr(%-40.40logger{39}){cyan} %clr(:){faint} %m%n${LOG_EXCEPTION_CONVERSION_WORD:-%wEx}"
